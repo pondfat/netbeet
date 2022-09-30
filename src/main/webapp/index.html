@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+         <form action="addfood" >
+            ชื่อ: <input type="text" name="foodName"><br/>
+            ประเภท:  <select name = "foodType" id="foodType">
+                <option value="ทอด">ทอด</option>
+                <option value="ผัด">ผัด</option>
+                <option value="แกง">แกง</option>
+                <option value="ยำ">ยำ</option>
+                <option value="ต้ม">ต้ม</option>
+            </select><br/>
+            สารอาหาร: <br/>
+            <input type="checkbox" id="foodnutrient" name="foodnutrient" value="โปรตีน">โปรตีน<br/>
+            <input type="checkbox" id="foodnutrient" name="foodnutrient" value="ไขมัน">ไขมัน<br/>
+            <input type="checkbox" id="foodnutrient" name="foodnutrient" value="วิตามิน">วิตามิน<br/>
+            <input type="checkbox" id="foodnutrient" name="foodnutrient" value="คาร์โบไฮเดรต">คาร์โบไฮเดรต<br/>
+            รสเผ็ด(เลือก1): <br/>
+            <input type="checkbox" id="hotLevel1" name="foodhotlevel" value="ไม่เผ็ด"><br/>
+            <label for="hotLevel1">ไม่เผ็ด</label><br>
+            <input type="checkbox" id="hotLevel2" name="foodhotlevel" value="เผ็ดน้อย"><br/>
+            <label for="hotLevel2">เผ็ดน้อย</label><br>
+            <input type="checkbox" id="hotLevel3" name="foodhotlevel" value="เผ็ดมาก"><br/>
+              <input type="text" name="foodprice" ><br/>
+            <input type="submit" value="เพิ่มอาหาร" ><br/>
+        </form>
+    </body>
+</html>
